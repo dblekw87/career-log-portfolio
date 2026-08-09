@@ -99,7 +99,7 @@ function Hero() {
             <span>Frontend Developer</span>
           </h1>
           <p className="headline-copy">
-            React · Next.js · TypeScript · Web3
+            React · Next.js · TypeScript · React Native · Web3
           </p>
           <p className="intro">
             웹 서비스의 사용자 화면부터 API와 상태 관리, Web3의 Wallet, Smart Contract, Transaction Flow까지 구현합니다.

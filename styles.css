@@ -152,9 +152,9 @@ h2 {
 .headline-copy {
   max-width: 760px;
   margin: 14px 0 0;
-  color: #172033;
-  font-size: 22px;
-  font-weight: 850;
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 900;
   line-height: 1.45;
 }
 

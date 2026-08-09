@@ -92,15 +92,16 @@ function Hero() {
             <span>React · Next.js · TypeScript</span>
           </div>
           <h1 id="profile-title">
-            김광우
-            <span>Frontend Engineer</span>
+            Kim Kwangwoo
+            <span>Frontend Developer</span>
           </h1>
           <p className="headline-copy">
-            복잡한 서비스 흐름을 안정적인 UI와 예측 가능한 상태로 정리합니다.
+            React · Next.js · TypeScript · Web3
           </p>
           <p className="intro">
-            React, Next.js, TypeScript를 중심으로 커머스, 백오피스, 거래소, 데이터 시각화, Web3/DeFi 서비스를 개발했습니다.
-            화면 구현에 머무르지 않고 API 연동, 상태 관리, 공통 컴포넌트, 에러 처리, AI 기반 개발 워크플로우까지 제품 흐름에 맞게 다룹니다.
+            웹 서비스의 사용자 화면부터 API와 상태 관리, Web3의 Wallet, Smart Contract, Transaction Flow까지 구현합니다.
+            6년간 커머스, 거래소, 데이터 시각화, 백오피스, Web3/DeFi 서비스를 개발해왔습니다.
+            최근에는 Arbitrum 기반 DeFi 서비스에서 Mint, Redeem, Swap, Supply, Borrow, Vault 등 온체인 기능을 프론트엔드 경험으로 연결하는 업무를 담당했습니다.
           </p>
           <div className="signal-row" aria-label="career signals">
             <span>+ UI State</span>

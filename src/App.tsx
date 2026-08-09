@@ -91,10 +91,16 @@ function Hero() {
             <p className="eyebrow">Frontend Developer</p>
             <span>React · Next.js · TypeScript</span>
           </div>
-          <h1 id="profile-title">김광우 Career Log</h1>
+          <h1 id="profile-title">
+            김광우
+            <span>Frontend Engineer</span>
+          </h1>
+          <p className="headline-copy">
+            복잡한 서비스 흐름을 안정적인 UI와 예측 가능한 상태로 정리합니다.
+          </p>
           <p className="intro">
-            React, Next.js, TypeScript 기반으로 웹 프론트엔드 서비스를 개발해 온 6년차 개발자입니다. 커머스, 백오피스, 거래소, 데이터 시각화,
-            Web3/DeFi까지 다양한 도메인의 화면 흐름과 예외 상태를 구현했습니다.
+            React, Next.js, TypeScript를 중심으로 커머스, 백오피스, 거래소, 데이터 시각화, Web3/DeFi 서비스를 개발했습니다.
+            화면 구현에 머무르지 않고 API 연동, 상태 관리, 공통 컴포넌트, 에러 처리, AI 기반 개발 워크플로우까지 제품 흐름에 맞게 다룹니다.
           </p>
           <div className="signal-row" aria-label="career signals">
             <span>+ UI State</span>

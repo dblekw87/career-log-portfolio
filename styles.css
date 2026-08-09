@@ -107,17 +107,60 @@ h2 {
 }
 
 h1 {
+  position: relative;
+  display: inline-grid;
+  gap: 2px;
   font-size: clamp(34px, 5vw, 64px);
   line-height: 1.02;
+}
+
+h1::before {
+  content: "commit profile";
+  width: max-content;
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--green);
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1;
+  box-shadow: var(--inset-shadow);
+}
+
+h1 span {
+  position: relative;
+  display: inline-block;
+  padding-right: 14px;
+}
+
+h1 span::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 0;
+  bottom: 4px;
+  z-index: -1;
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(36, 87, 214, 0.16);
 }
 
 h2 {
   font-size: 20px;
 }
 
+.headline-copy {
+  max-width: 760px;
+  margin: 14px 0 0;
+  color: #172033;
+  font-size: 22px;
+  font-weight: 850;
+  line-height: 1.45;
+}
+
 .intro {
   max-width: 760px;
-  margin: 18px 0 0;
+  margin: 12px 0 0;
   color: #344054;
   font-size: 18px;
   line-height: 1.7;
@@ -593,6 +636,10 @@ pre {
   .log-panel,
   .side-panel {
     padding: 18px;
+  }
+
+  .headline-copy {
+    font-size: 18px;
   }
 
   .stat-grid {

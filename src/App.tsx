@@ -12,6 +12,8 @@ const coreStack = [
   "Web3",
   "Smart Contract ABI",
   "Figma MCP",
+  "Figma Plugin API",
+  "Playwright",
   "Claude",
   "Codex",
 ];
@@ -31,6 +33,11 @@ const personalProjects = [
     name: "date-platform",
     href: "https://github.com/dblekw87/date-platform",
     description: "개인 프로젝트 · 주식 트레이딩 정보 수집 및 투자 보조 플랫폼",
+  },
+  {
+    name: "all-in-one-design-productivity-plugin",
+    href: "https://github.com/dblekw87/all-in-one-design-productivity-plugin",
+    description: "개인 프로젝트 · 웹사이트를 편집 가능한 Figma 레이어로 변환하는 디자인 생산성 플러그인",
   },
 ];
 

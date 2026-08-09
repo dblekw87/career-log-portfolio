@@ -68,29 +68,6 @@ a {
   align-items: stretch;
 }
 
-.hero-kicker {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.hero-kicker .eyebrow {
-  margin-bottom: 0;
-}
-
-.hero-kicker span {
-  border: 1px solid rgba(255, 255, 255, 0.76);
-  border-radius: 999px;
-  padding: 6px 10px;
-  background: var(--panel);
-  color: #344054;
-  font-size: 12px;
-  font-weight: 800;
-  box-shadow: var(--soft-shadow);
-}
-
 .eyebrow {
   margin: 0 0 10px;
   color: var(--blue);

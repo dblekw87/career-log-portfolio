@@ -87,10 +87,6 @@ function Hero() {
     <section className="profile-panel" aria-labelledby="profile-title">
       <div className="profile-top">
         <div>
-          <div className="hero-kicker">
-            <p className="eyebrow">Frontend Developer</p>
-            <span>React · Next.js · TypeScript</span>
-          </div>
           <h1 id="profile-title">
             Kim Kwangwoo
             <span>Frontend Developer</span>

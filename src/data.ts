@@ -31,20 +31,34 @@ export const career: CareerItem[] = [
   {
     period: "2024.12 - 2025.12",
     company: "피터패트",
-    title: "대웅제약 이상사례 시스템 / DNO 시각화 / Figma Plugin",
+    title: "대웅제약 이상사례 시스템 / DNO 시각화 / 계양 산업단지 / 현대모비스",
     summary:
-      "Next.js 기반 이상사례 시스템에서 접수, 상세, 공통 팝업, 에러 처리 구조를 구현했습니다. Electron 기반 DNO 시각화 프로그램에서는 SQLite, IPC, 백업/복원, CSV Export, 대용량 Chart.js 컴포넌트를 개발했습니다.",
-    tags: ["Next.js", "TypeScript", "Zustand", "Electron", "SQLite", "Chart.js", "OpenAI API"],
+      "Next.js 기반 이상사례 시스템에서 접수, 상세, 공통 팝업, 에러 처리 구조를 구현했습니다. Electron 기반 DNO 시각화 프로그램에서는 SQLite, IPC, 백업/복원, CSV Export, 대용량 Chart.js 컴포넌트를 개발했고, 계양 산업단지에서는 React 프론트엔드와 Spring Boot 백엔드를 함께 담당했습니다.",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Zustand",
+      "Electron",
+      "SQLite",
+      "Chart.js",
+      "Spring Boot",
+      "Unity3D",
+      "OpenAI API",
+    ],
     work: [
       "대웅제약 이상사례 시스템 접수 리스트, 상세 화면, 공통 팝업, 에러 팝업 구현",
       "Backend Response Schema 기반 Type 정의 및 API Error Handling 구조 개선",
       "Electron 기반 DNO 프로그램의 IPC, SQLite, Backup/Restore, CSV Export 개발",
       "OpenAI API 기반 Figma UX Writing 교정 Plugin 개발",
+      "계양 산업단지 웹사이트의 React 프론트엔드 및 Java Spring Boot 백엔드 개발, Unity3D 기반 3D 도로뷰/전체 Map 구현",
+      "현대모비스 라이브 서비스 리뉴얼 화면 React 개발 및 Node.js/EJS 기반 사용자·Admin 유지보수",
     ],
     impact: [
       "복잡한 접수 데이터와 예외 흐름을 유지보수 가능한 화면 구조로 정리",
       "웹 기술을 Desktop 환경으로 확장해 File, Local DB, Chart 데이터를 처리",
       "AI API를 실제 업무 도구에 적용한 프론트엔드 경험 확보",
+      "프론트엔드부터 Spring Boot 백엔드, 서버 배포까지 담당하며 서비스 전체 흐름을 처리",
     ],
   },
   {

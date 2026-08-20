@@ -32,7 +32,12 @@ const personalProjects = [
   {
     name: "date-platform",
     href: "https://github.com/dblekw87/date-platform",
-    description: "개인 프로젝트 · 주식 트레이딩 정보 수집 및 투자 보조 플랫폼",
+    description: "개인 프로젝트 · 주식 트레이딩 정보 수집 및 투자 보조 플랫폼 (Frontend)",
+  },
+  {
+    name: "date-platform-backend",
+    href: "https://github.com/dblekw87/date-platform-backend",
+    description: "개인 프로젝트 · DATE 플랫폼 Backend API 서버",
   },
   {
     name: "all-in-one-design-productivity-plugin",
